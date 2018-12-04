@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Heebo" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Yantramanav" rel="stylesheet">
+    <title>Renaissance Quiz</title>
+
+    <style>
+        * {
+            font-family: sans-serif;
+            margin: 0 auto;
+            text-align: center;
+            font-family: 'Heebo', sans-serif;
+            font-weight: 700;
+        }
+        h1{
+            font-family: 'Yantramanav', sans-serif;
+            margin-top: 10px;
+            margin-bottom: 50px;
+            padding: 8px;
+            border-bottom-color: black;
+            border-bottom-style: solid;
+            border-bottom-width: 3px;
+            font-size: 2.2em;
+            width: 85%;
+        }
+        body{
+            background-image: url("assets/images/background.png");
+        }
+        img{
+            width: 400px;
+            height: 400px;
+        }
+        .container{
+            margin: 70px 275px 0 275px;
+            background-color: lightblue;
+            border-style: solid;
+            border-width: 3px;
+            border-color: rebeccapurple;
+            height: 800px;
+        }
+        .textStyle{
+            font-weight: 1.4em;
+            color:rebeccapurple;
+            margin-bottom: 14px;
+        }
+        button{
+            background-color: lightgoldenrodyellow;
+            border-color: rebeccapurple;
+            border-width: 2px;
+            border-radius: 4px;
+            width: 300px;
+            height: 50px;
+            font-size: 1.6em;
+            margin: 10px;
+            font-weight: bold;
+            font-family: 'Heebo', sans-serif;
+        }
+        p{
+            font-size: 1.6em;
+        }
+    </style>
+
+</head>
+<body>
+    <div class = "container">
+        <div><h1>Renaissance Quiz</h1></div>
+        <button id="startButton">Start</button>
+        <div id="timer" class = "textStyle"></div>
+        <div id="question" class = "textStyle"></div>
+        <div id="choices"></div>
+        <div id="startOver"></div>
+        <div id = "image"></div>
+    </div>
+<script src="assets/javascript/quizJs.js"></script>
+</body>
+</html>
